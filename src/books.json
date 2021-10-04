@@ -1,0 +1,27 @@
+[
+    {
+        "id":"1",
+        "name":"A Smarter Way to Learn JavaScript",
+        "author":"Mark Myers"
+    },
+    {
+        "id":"2",
+        "name":"Eloquent JavaScript",
+        "author":"Marjin Haverbeke"
+    },
+    {
+        "id":"3",
+        "name":"JavaScript & JQuery",
+        "author":"Jon Duckett"
+    },
+    {
+        "id":"4",
+        "name":"JavaScript: The Good Parts",
+        "author":"Douglas Crockford"
+    },
+    {
+        "id":"5",
+        "name":"JavaScript: The Definitive Guide",
+        "author":"David Flanagan"
+    }
+]
