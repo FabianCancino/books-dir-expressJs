@@ -1,11 +1,12 @@
 const express = require('express')
-const app = express()
+const books = require('./books')
 const port = 8080
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+const app = express();
+
+app.use(express.json());
+app.use('/api/v1/books', books);
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Server listening at http://localhost:${port}`)
 })
